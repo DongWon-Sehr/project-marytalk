@@ -12,7 +12,7 @@
   - [1. 데이터 수집](#1-데이터-수집)
   - [2. 리뷰 감성분석](#2-리뷰-감성분석)
   - [3. 질문의도, 형용사 다중분류 모델](#3-질문의도-형용사-다중분류-모델)
-  - [4. NER 을 위한 Bi-LSTM 모델](#4-ner-을-위환-bilstm-모델)
+  - [4. NER 을 위한 Bi-LSTM 모델](#4-ner-을-위환-bi-lstm-모델)
   - [5. 코사인 유사도](#5-코사인-유사도)
   - [6. 이미지 분류 모델](#6-이미지-분류-모델)
   - [7. DB 연동 챗봇 구현 및 플랫폼 등록](#7-db-연동-챗봇-구현-및-플랫폼-등록)
@@ -65,9 +65,19 @@ end
 ```
 
 # 개발 환경
-<img src="https://github.com/DongWon-Sehr/project_marytalk/blob/master/sample%20image/1-4_dev_env_1.png" width="300">
-<img src="https://github.com/DongWon-Sehr/project_marytalk/blob/master/sample%20image/1-4_dev_env_2.png" width="300">
-<img src="https://github.com/DongWon-Sehr/project_marytalk/blob/master/sample%20image/1-4_dev_env_3.png" width="300">
+<table>
+   <tr align="center">
+      <td>
+         <img src="https://github.com/DongWon-Sehr/project_marytalk/blob/master/sample%20image/1-4_dev_env_1.png" width="300">
+      </td>
+      <td>
+         <img src="https://github.com/DongWon-Sehr/project_marytalk/blob/master/sample%20image/1-4_dev_env_2.png" width="300">
+      </td>
+      <td>
+         <img src="https://github.com/DongWon-Sehr/project_marytalk/blob/master/sample%20image/1-4_dev_env_3.png" width="300">
+      </td>
+   </tr>
+</table>
 
 # 개발 과정
 ## 1. 데이터 수집
@@ -202,5 +212,12 @@ end
 </table>
 
 # 서비스 화면
+- 추천요청 질문
+    - ‘강남역’이라는 지리 정보(BIO tag)를, ‘가까운’ 이라는 형용사, ‘추천’이라는 질문의도를 모두 파악하여 가장 최적화된 미용실을 추천한다.
+- 리뷰(후기) 정보를 물어보는 질문
+    - 사전에 평가항목으로 지정한 6가지 부분(위생/서비스/분위기/위치/헤어 만족도/기타)에 대한 가중치가 반영된 score 중에서 서비스와 만족도 점수와 함께 총점을 반환하여 추천한다.
 <img src="https://github.com/DongWon-Sehr/project_marytalk/blob/master/sample%20image/marytalk_conversation_20200521_sample1.png" width="500">
+
+- 이어서 마리톡 챗봇 서비스 중 이미지 분류 모델을 통해 전송받은 사진에 해당하는 헤어스타일을 알려주는 상황이다
+- ‘가르마 펌’ 에 해당하는 이미지를 전송받아 사전에 학습시킨 모델에서 해당 이미지를 분류하여 가장 유사도가 높은 헤어스타일 3개를 알려준다
 <img src="https://github.com/DongWon-Sehr/project_marytalk/blob/master/sample%20image/marytalk_conversation_20200521_sample2.png" width="500">
