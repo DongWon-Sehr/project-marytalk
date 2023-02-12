@@ -1,0 +1,8 @@
+HTTP 코드,에러 코드,에러 메시지,조치 방안
+400,SE01,Incorrect query request (잘못된 쿼리 요청입니다.),"검색 API 요청에 오류가 있습니다. 요청 URL, 필수 요청 변수가 정확한지 확인 바랍니다."
+400,SE02,Invalid display value (부적절한 display 값입니다.),display 요청 변수값이 허용 범위(1~30)인지 확인해 보세요.
+400,SE03,Invalid start value (부적절한 start 값입니다.),start 요청 변수값이 허용 범위(1~1000)인지 확인해 보세요.
+400,SE04,Invalid sort value (부적절한 sort 값입니다.),sort 요청 변수 값에 오타가 없는지 확인해 보세요.
+400,SE06,Malformed encoding (잘못된 형식의 인코딩입니다.),검색어를 UTF-8로 인코딩하세요.
+404,SE05,Invalid search api (존재하지 않는 검색 api 입니다.),검색 API 대상에 오타가 없는지 확인해 보세요.
+500,SE99,System Error (시스템 에러),서버 내부 에러가 발생하였습니다. 포럼에 올려주시면 신속히 조치하겠습니다.

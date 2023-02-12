@@ -1,1 +1,6 @@
-dataset/01_collect_hair_salon_list/*key_info.*
+dataset/01_collect_hair_salon_list_from_public_api/seoul_hairsalon_data
+dataset/02_collect_hair_salon_list_from_search_engine/data
+dataset/03_collect_text_data/00_data
+dataset/05_anaylze_text_data/output_data
+dataset/05_anaylze_text_data/사용안함
+dataset/06_analyze_image_data/챗봇 업로드용/model

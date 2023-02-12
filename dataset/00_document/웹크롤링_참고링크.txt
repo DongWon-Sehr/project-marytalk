@@ -1,0 +1,29 @@
+- 셀레니움으로 웹 크롤러 만들기
+https://beomi.github.io/2017/02/27/HowToMakeWebCrawler-With-Selenium/
+
+- beautifulsoup 모듈로 HTML 파싱하기
+https://blog.naver.com/asset38/221848898734
+
+- 영문주의) 뷰티풀숲으로 HTML 파싱하기
+http://www.compjour.org/warmups/govt-text-releases/intro-to-bs4-lxml-parsing-wh-press-briefings/
+
+- 영문주의) 뷰티풀숲 모듈 정보
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+- 셀레니움으로 웹 크롤링 하기(2) - 웹사이트 제어
+https://medium.com/@nsh235482/python-selenium%EC%9C%BC%EB%A1%9C-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%ED%81%AC%EB%A1%A4%EB%A7%81%ED%95%98%EA%B8%B0-2-%EC%9B%B9-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%9C%EC%96%B4%ED%95%B4%EB%B3%B4%EA%B8%B0-1ffc5e05179d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
